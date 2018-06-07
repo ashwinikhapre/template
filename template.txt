@@ -18,7 +18,7 @@
       			"type": "string",
       			"description": "Testing_1 Type of instance (flavor) to be used",
       			"label": "Instance Type",
-      			"default": "s1.small"
+      			"default": "s1.medium"
       		}
       	},
       	"resources": {
