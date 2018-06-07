@@ -20,11 +20,6 @@
       			"label": "Instance Type",
       			"default": "s1.medium"
       		},
-                  "user_data": {
-      			"type": "string",
-      			"description": "user data",
-      			"label": "user_data"
-      		}
       	},
       	"resources": {
       		"my_instance": {
@@ -41,9 +36,7 @@
       						"get_param": "net_id"
       					}
       				}],
-                              "user_data": {
-                                    "get_file": "myfile"
-                              }
+                         
       			}
       		}
       	}
