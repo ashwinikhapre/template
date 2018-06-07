@@ -1,24 +1,24 @@
       {
-      	"heat_template_version": "2013-05-23",
-      	"description": "Simple template disha",
+      	      	"heat_template_version": "2013-05-23",
+      	"description": "Testing_1 Simple template ash",
       	"parameters": {
       		"image_id": {
       			"type": "string",
       			"description": "Image to be used for compute instance",
       			"label": "Image ID",
-      			"default": "af3d8419-5dd1-4f9f-959d-2ed72236ab73"
+      			"default": "c0ea3ff1-432e-4650-8a1b-372a80b2d2be"
       		},
       		"net_id": {
       			"type": "string",
-      			"description": "The network to be used",
+      			"description": "Testing_1 The network to be used",
       			"label": "Network UUID",
-      			"default": "b857922b-cff7-42f2-b5ee-02619c0081e5"
+      			"default": "a47fdd26-27e3-4f5a-9408-766f3bb9ccce"
       		},
       		"instance_type": {
       			"type": "string",
-      			"description": "Type of instance (flavor) to be used",
+      			"description": "Testing_1 Type of instance (flavor) to be used",
       			"label": "Instance Type",
-      			"default": "s1.medium"
+      			"default": "s1.small"
       		}
       	},
       	"resources": {
@@ -31,13 +31,13 @@
       				"flavor": {
       					"get_param": "instance_type"
       				},
+
       				"networks": [{
       					"network": {
       						"get_param": "net_id"
       					}
       				}]
-
       			}
       		}
       	}
-      }
+}
