@@ -1,11 +1,11 @@
       {
       	"heat_template_version": "2013-05-23",
-      	"description": "Simple template disha",
+      	"description": "Test desription",
       	"parameters": {
       		"image_id": {
       			"type": "string",
       			"description": "Image to be used for compute instance",
-      			"label": "Image ID",
+      			"label": "Test_Image ID",
       			"default": "af3d8419-5dd1-4f9f-959d-2ed72236ab73"
       		},
       		"net_id": {
@@ -16,7 +16,7 @@
       		},
       		"instance_type": {
       			"type": "string",
-      			"description": "Type of instance (flavor) to be used",
+      			"description": "test Type of instance (flavor) to be used",
       			"label": "Instance Type",
       			"default": "s1.medium"
       		},
