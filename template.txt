@@ -12,7 +12,7 @@
       			"type": "string",
       			"description": "Testing_1 The network to be used",
       			"label": "Network UUID",
-      			"default": "a47fdd26-27e3-4f5a-9408-766f3bb9ccce"
+      			"default": "fd59a8ea-51a9-4757-b95d-3d428b4ce04e"
       		},
       		"instance_type": {
       			"type": "string",
